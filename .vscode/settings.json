@@ -8,6 +8,8 @@
     "circuitpython.board.vid": "0x239A",
     "circuitpython.board.pid": "0x8038",
     "python.analysis.extraPaths": [
-
+        "c:\\Users\\Cyrus Wyatt\\.vscode\\extensions\\joedevivo.vscode-circuitpython-0.1.19-win32-x64\\boards\\0x239A\\0x8038",
+        "c:\\Users\\Cyrus Wyatt\\.vscode\\extensions\\joedevivo.vscode-circuitpython-0.1.19-win32-x64\\stubs",
+        "c:\\Users\\Cyrus Wyatt\\AppData\\Roaming\\Code\\User\\globalStorage\\joedevivo.vscode-circuitpython\\bundle\\20221209\\adafruit-circuitpython-bundle-py-20221209\\lib"
     ]
 }
