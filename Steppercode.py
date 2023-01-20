@@ -29,7 +29,7 @@ coils = (
 for coil in coils:
     coil.direction = digitalio.Direction.OUTPUT
 
-smoothing = lib.smoothing.MovingAverage()
+smoothing = lib.smoothing.Smoothing()
 Steps= 0 
 motor = stepper.StepperMotor(coils[0], coils[1], coils[2], coils[3], microsteps=None)
 
@@ -37,15 +37,16 @@ motor = stepper.StepperMotor(coils[0], coils[1], coils[2], coils[3], microsteps=
 while True:
     smoothvalue = smoothing.update(int(simpleio.map_range(pot.value,0,65535,0,5500)))
     #smoothvalue = int(simpleio.map_range(pot.value,0,65535,0,4500))
-    print(smoothvalue, Steps) 
+    
 
     #smoothvalue = int(simpleio.map_range(smoothing.update(pot.value),0,65535,0,4500))
+    print(smoothvalue, Steps) 
     #print(limit.value) 
     
     
     if abs(smoothvalue - Steps) >4 and limit.value == True:
         #print(smoothvalue, Steps) 
-         
+        
         if smoothvalue > Steps :
            motor.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)
            Steps = Steps +1       
