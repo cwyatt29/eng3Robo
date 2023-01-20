@@ -8,8 +8,17 @@
     "circuitpython.board.vid": "0x239A",
     "circuitpython.board.pid": "0x8038",
     "python.analysis.extraPaths": [
+<<<<<<< HEAD
+        "c:\\Users\\cwyatt29\\.vscode\\extensions\\joedevivo.vscode-circuitpython-0.1.19-win32-x64\\boards\\0x239A\\0x8038",
+        "c:\\Users\\cwyatt29\\.vscode\\extensions\\joedevivo.vscode-circuitpython-0.1.19-win32-x64\\stubs",
+        "c:\\Users\\cwyatt29\\AppData\\Roaming\\Code\\User\\globalStorage\\joedevivo.vscode-circuitpython\\bundle\\20221213\\adafruit-circuitpython-bundle-py-20221213\\lib"
+    ],
+    "git.autofetch": true,
+    "git.fetchOnPull": true
+=======
         "c:\\Users\\dhalber11\\.vscode\\extensions\\joedevivo.vscode-circuitpython-0.1.19-win32-x64\\boards\\0x239A\\0x8038",
         "c:\\Users\\dhalber11\\.vscode\\extensions\\joedevivo.vscode-circuitpython-0.1.19-win32-x64\\stubs",
         "c:\\Users\\dhalber11\\AppData\\Roaming\\Code\\User\\globalStorage\\joedevivo.vscode-circuitpython\\bundle\\20230120\\adafruit-circuitpython-bundle-py-20230120\\lib"
     ]
+>>>>>>> 087f8f47125252c8b22c88035987276e7b2d5f60
 }
