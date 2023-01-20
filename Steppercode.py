@@ -24,33 +24,28 @@ coils = (
     digitalio.DigitalInOut(board.D9),  # B1
     digitalio.DigitalInOut(board.D10),  # B2
 )
-coils2 = ( 
-    digitalio.DigitalInOut(board.D4),  # A1
-    digitalio.DigitalInOut(board.D3),  # A2
-    digitalio.DigitalInOut(board.D1),  # B1
-    digitalio.DigitalInOut(board.D2),  # B2
-)
 
 
 for coil in coils:
     coil.direction = digitalio.Direction.OUTPUT
-for coil in coils2:
-    coil.direction = digitalio.Direction.OUTPUT 
 
 smoothing = lib.smoothing.MovingAverage()
-pwm = pwmio.PWMOut(board.D13, frequency=50)
 Steps= 0 
 motor = stepper.StepperMotor(coils[0], coils[1], coils[2], coils[3], microsteps=None)
-motor2 = stepper.StepperMotor(coils2[0], coils2[1], coils2[2], coils2[3], microsteps=None)
+
 
 while True:
-    smoothvalue = smoothing.update(pot.value)
-    print(limit.value)
-         
+    smoothvalue = smoothing.update(int(simpleio.map_range(pot.value,0,65535,0,5500)))
+    #smoothvalue = int(simpleio.map_range(pot.value,0,65535,0,4500))
+    print(smoothvalue, Steps) 
+
+    #smoothvalue = int(simpleio.map_range(smoothing.update(pot.value),0,65535,0,4500))
+    #print(limit.value) 
     
-    while abs(smoothvalue - Steps) >4  and  limit.value == True:
-        
-        print(int(simpleio.map_range(smoothvalue,0,65535,0,200)),)  
+    
+    if abs(smoothvalue - Steps) >4 and limit.value == True:
+        #print(smoothvalue, Steps) 
+         
         if smoothvalue > Steps :
            motor.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)
            Steps = Steps +1       
@@ -61,9 +56,9 @@ while True:
            motor.onestep(style=stepper.DOUBLE, direction= stepper.FORWARD)
            Steps = Steps -1          
         time.sleep(.001) 
-    while limit.value == False:
-        time.sleep(.1) 
-        Steps = 0 
+    
+    if limit.value == False:
+        Steps = 4500 
 
      
  

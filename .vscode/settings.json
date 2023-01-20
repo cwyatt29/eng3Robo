@@ -10,6 +10,6 @@
     "python.analysis.extraPaths": [
         "c:\\Users\\dhalber11\\.vscode\\extensions\\joedevivo.vscode-circuitpython-0.1.19-win32-x64\\boards\\0x239A\\0x8038",
         "c:\\Users\\dhalber11\\.vscode\\extensions\\joedevivo.vscode-circuitpython-0.1.19-win32-x64\\stubs",
-        "c:\\Users\\dhalber11\\AppData\\Roaming\\Code\\User\\globalStorage\\joedevivo.vscode-circuitpython\\bundle\\20230113\\adafruit-circuitpython-bundle-py-20230113\\lib"
+        "c:\\Users\\dhalber11\\AppData\\Roaming\\Code\\User\\globalStorage\\joedevivo.vscode-circuitpython\\bundle\\20230120\\adafruit-circuitpython-bundle-py-20230120\\lib"
     ]
 }
