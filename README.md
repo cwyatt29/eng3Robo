@@ -40,21 +40,29 @@ From our research we learned that the simplest way of creating an electro-magnet
 ![Microwave Pics](https://github.com/cwyatt29/eng3Robo/blob/master/images/Microwave%20Pic%201.PNG)
 
 ![Transformer Pics](https://github.com/cwyatt29/eng3Robo/blob/master/images/Transformer%20Pic%201.PNG)
+
 ---
 
 ## Phase_3,_Proof_of_Concept 
 
 We were able to get our POC done very quickly because we had gathered all the necessary parts to make both the magnet and robot within 2 weeks. I regcret rushing into making the magnet because I think that we couldve made a stronger and nicer looking magnet if we had more time.
 
-[![Proof Video]]{https://github.com/cwyatt29/eng3Robo/blob/master/images/Z%20motor%20Proof_Trim.mp4}
+![Proof Video](https://github.com/cwyatt29/eng3Robo/blob/master/images/Z%20motor%20Proof_Trim.mp4)
+
 ---
+
 ## Magnet_assembly
+
 To make our magnet we referenced Schematix's [Video](https://www.youtube.com/watch?v=DT0QHsN3vcE) on converting transformers to elctromagnets. This video was the main video we used to build our magnet. In his video he connected his magnet to multiple different power sources but we needed a source that could be mobile. To solve this problem we used a 18v drill battery. We also learned when it comes to hold strenght the AMPS are what matter. One of our biggest issues was overheating which we expect came from a short in our transformer coils. The temperature would heat to 200 F in about 10 seconds.We never stopped the heating but we added a fan that may help the magnet cool down, we also had to upgrade the connection wire because they would burn out extremly fast. This didnt seem like a common issue so we think its something to do with the magnet itself or possibly the power source.
+
 ---
+
 ## Structure_assembly
 
 The 3d printer was already in a shape that would work for us so we only needed to do some small modifications. We removed the print bed, nossle, electrtonics, and 2 of the stepper motors. We then mounted one of the stronger steppers to the Y axis because we knew it would have to lift a lot of weight.
+
 ---
+
 ## Phase_4_Code
 
 ```python
