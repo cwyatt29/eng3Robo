@@ -149,10 +149,21 @@ while True:
 ---
 ## Consistant_Issues
 
-* Power
-* Motors
-* Wiring
-* Overheating
+* *Power*
+
+We had many power issues throughout the project not only with the arduino but also with the magnet. The magnets issues were pretty quick to solve because all it needed was a battery that could put out enough amps. With the arduino many batteries kept dying because the stepper drew so much current. We decided to uses rechargeable lithium-ion batteries.
+
+
+* *Motors*
+
+About halfway through January we realized we werent going to be able to complete the drive motors because we were having so many issues with the code. So we decided to scrap the drive motors and opt for caster wheels. These wheels were simple to mount and havent given us any issue so far.
+
+* *Wiring*
+
+Because we were constantly changing the plans the wiring would change more than once a week which was not ideal becasuse it was easy to forget to plug something in then we would spend the whole class trying to figure out why it wouldnt move which was not an effeiceint use of our time. Near the end of our allocated assembly time we agreed on a wiring set up that we wouldnt change.
+* *Overheating* 
+
+Our magnet had another issue, overheating. We used a thermal camera to get a reading a our magnet was heating up to 220F in about ten seconds when it was powered. This was not ideal because the idea was to be able to carry heavy metal parts over small distances. We knew that without some counter measures the magnet would eventually become unsafe to use. We werent able to fully stop the over heating but we did add a small fan to cool it and we upgraded our wires so they could handle more current without melting.
 
 
 ---
@@ -171,3 +182,4 @@ This picture shows that our robot was able to pic up and hold a hammer with litt
 
 ## Refelection 
 
+Our design changed probally five or six times over the course of the whole project. I wish that we wouldve just stuck with one specific design. I think that at the start we thought that the code wouldnt be very challenging but nobody in our group had worked with steppers so it took us much longer to get our project running. By the time we did we didnt have time to make two more steppers run. Next time I will just use motors and make a gear box when I need more torque. I was very happy that we were able to reuse many parts from the 3d printer and use the motors that were already on there. In hindsight I definently regret not spending more time carefully removing the transformer and modifying it. I feel we couldve gotten a much stronger magnet if we had been more careful to not damage it.
