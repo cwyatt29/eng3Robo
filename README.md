@@ -160,7 +160,8 @@ while True:
 
 
 ![Electro-Mag On](https://github.com/cwyatt29/eng3Robo/blob/master/images/Magnet%20Working%20Pic.jpg)
-![Electro-Mag Off](https://github.com/cwyatt29/eng3Robo/blob/master/images/Electromag%20Robot%20Pic%201.jpg)
+This picture shows that our robot was able to pic up and hold a hammer with little issue.
+![Electro-Mag Off](https://github.com/cwyatt29/eng3Robo/blob/master/images/Electromag%20Robot%20Pic%201.jpg) Here is one last look at our project. It is more than 3 feet tall, weights ___, and is run off 36 Volts of power from 3 different batteries.
 
 
 
