@@ -37,6 +37,8 @@ From our research we learned that the simplest way of creating an electro-magnet
 
 ![Microwave Pics](https://github.com/cwyatt29/eng3Robo/blob/master/images/Microwave%20Pic%201.PNG)
 
+![Transformer Pics](https://github.com/cwyatt29/eng3Robo/blob/master/images/Transformer%20Pic%201.PNG)
+
 
 ## Phase_3,_Proof_of_Concept 
 
