@@ -147,3 +147,25 @@ while True:
 ```
 ---
 ## Consistant_Issues
+
+* Power
+* Motors
+* Wiring
+* Overheating
+
+
+---
+
+## Final Product
+
+
+![Electro-Mag On](https://github.com/cwyatt29/eng3Robo/blob/master/images/Magnet%20Working%20Pic.jpg)
+![Electro-Mag Off](https://github.com/cwyatt29/eng3Robo/blob/master/images/Electromag%20Robot%20Pic%201.jpg)
+
+
+
+---
+
+
+## Refelection 
+
