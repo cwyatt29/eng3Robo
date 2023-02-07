@@ -3,14 +3,16 @@ Our robot arm is differnt than the traditional robotic arm. We will make a gantr
 
 ## TOC
 
-* [Phase 1, Design](##Phase_1,_Design)
-* [Phase 2,Salvage](##Phase_2,_Salvage)
-* [Phase 3, Proof of Concept](##Phase_3,_Proof_of_Concept)
-* [Magnet assembly](##Magnet_assembly)
-* [Structure assembly](##Structure_assembly)
-* [Phase 4 Code](##Phase_4_Code)
-* [Phase 5 Working Project](##Phase_5_Working_Project)
+* [Design](#design)
+* [Salvage](#salvage)
+* [Proof of Concept](#proofofconcept)
+* [Magnet assembly](#magnetassembly)
+* [Structure assembly](#structureassembly)
+* [Code](#code)
 * [Consistant Issues](#consistantissues)
+* [Final Product](#finalproduct)
+* [Reflection](#refelection)
+
 ---
 ## Sources
 
@@ -23,7 +25,7 @@ Our robot arm is differnt than the traditional robotic arm. We will make a gantr
 [Drive](https://drive.google.com/drive/folders/1I6fFhtFFOL1zxpiJaQFnsx5c7EQsh9a1)
 
 ---
-## Phase_1,_Design
+## Design
 
 When designing our project we had two things in mind. The first was a scrap magnet, the magnet would be very important for picking up and dropping our metal objects. The second was a Shipping container crane, we were going to model our robot off of these cranes. Our goal was to pick up and transport metal objects, we would need both of these to acheive our goal.
 
@@ -34,7 +36,7 @@ When designing our project we had two things in mind. The first was a scrap magn
 
 ---
 
-## Phase_2,_Salvage
+## Salvage
 
 From our research we learned that the simplest way of creating an electro-magnet was to take a transformer out of a microwave and modify it, we go into more detail on how it works in  [Magnet assembly](##Magnet_assembly). I had had the skeleton of a 3d printer at my house which would work perfectly as the body of the robot. 
 
@@ -44,7 +46,7 @@ From our research we learned that the simplest way of creating an electro-magnet
 
 ---
 
-## Phase_3,_Proof_of_Concept 
+## Proof_of_Concept 
 
 We were able to get our POC done very quickly because we had gathered all the necessary parts to make both the magnet and robot within 2 weeks. I regcret rushing into making the magnet because I think that we couldve made a stronger and nicer looking magnet if we had more time.
 
@@ -64,7 +66,7 @@ The 3d printer was already in a shape that would work for us so we only needed t
 
 ---
 
-## Phase_4_Code
+## Code
 
 ```python
 
@@ -168,7 +170,7 @@ Our magnet had another issue, overheating. We used a thermal camera to get a rea
 
 ---
 
-## Final Product
+## Final_Product
 
 
 ![Electro-Mag On](https://github.com/cwyatt29/eng3Robo/blob/master/images/Magnet%20Working%20Pic.jpg)
