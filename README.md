@@ -27,6 +27,7 @@ Our robot arm is differnt than the traditional robotic arm. We will make a gantr
 
 When designing our project we had two things in mind. The first was a scrap magnet, the magnet would be very important for picking up and dropping our metal objects. The second was a Shipping container crane, we were going to model our robot off of these cranes. Our goal was to pick up and transport metal objects, we would need both of these to acheive our goal.
 
+![Design Sketch](https://github.com/cwyatt29/eng3Robo/blob/master/images/Design%20Sketch.JPG)
 
 
 
