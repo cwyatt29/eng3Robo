@@ -13,9 +13,9 @@ Our robot arm is differnt than the traditional robotic arm. We will make a gantr
 * [Consistant Issues](#consistantissues)
 ## Sources
 
-*
-*
-*
+* [Mr. Electron](https://www.youtube.com/channel/UCWFbPzBb7dCyCWuBA-DBrMA)
+* [ElectroBOOM](https://www.youtube.com/channel/UCJ0-OtVpF0wOKEqT2Z1HEtA)
+* [Schematix](https://www.youtube.com/c/schematix)
 *
 
 
@@ -35,6 +35,7 @@ When designing our project we had two things in mind. The first was a scrap magn
 
 From our research we learned that the simplest way of creating an electro-magnet was to take a transformer out of a microwave and modify it, we go into more detail on how it works in  [Magnet assembly](##Magnet_assembly). I had had the skeleton of a 3d printer at my house which would work perfectly as the body of the robot. 
 
+![Microwave Pics](https://github.com/cwyatt29/eng3Robo/blob/master/images/Microwave%20Pic%201.PNG)
 
 
 ## Phase_3,_Proof_of_Concept 
