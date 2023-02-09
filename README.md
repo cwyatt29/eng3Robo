@@ -150,7 +150,7 @@ while True:
 
 ```
 ---
-## Consistant_Issues
+## Consistent_Issues
 
 * *Power*
 
