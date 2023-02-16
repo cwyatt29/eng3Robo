@@ -66,7 +66,8 @@ The 3d printer was already in a shape that would work for us so we only needed t
 
 ---
 
-## Code
+## Phase_4_Code
+The code was arguably the hardest part of this project. I spent a large amount of time fixing small bugs that were constantly appearing in my code. To start I was simply mapping a potentiometer and sending it's values to a stepper that was matching those values with it's steps. This was a simple solution that may have worked if the potentiometers were perfect. However, they are far from perfect. The potentiometers have too many values in a small range of motion so that they never settle to one specific value. This caused the stepper motor that we were using to shake back and forth uncontrollably. To stop this I found an online library called Smoothing.py. In a nutshell this library when implemented with a range of values took an average of a select few of those values and then rounded them to make them even. With a little bit of tweaking this "smoothed" the values and allowed them to settle on a whole number. This stopped the shaking in the stepper and allowed us to move it up and down smoothly. We could not have done this without the smoothing function in place to stop the shaking that would have inevitably burnt out the motor. 
 
 ```python
 
@@ -149,7 +150,7 @@ while True:
 
 ```
 ---
-## Consistant_Issues
+## Consistent_Issues
 
 * *Power*
 
