@@ -173,9 +173,9 @@ Our magnet had another issue, overheating. We used a thermal camera to get a rea
 ## Final_Product
 
 
-![Electro-Mag On](https://github.com/cwyatt29/eng3Robo/blob/master/images/Magnet%20Working%20Pic.jpg)
-This picture shows that our robot was able to pic up and hold a hammer with little issue.
-![Electro-Mag Off](https://github.com/cwyatt29/eng3Robo/blob/master/images/Electromag%20Robot%20Pic%201.jpg) Here is one last look at our project. It is more than 3 feet tall, weights ___, and is run off 36 Volts of power from 3 different batteries.
+![Electro-Mag On](https://github.com/cwyatt29/eng3Robo/blob/master/images/MAGNET%20ON%202.jpg)
+This picture shows that our robot was able to pic up and hold ten lbs of weight with no issue.
+![Electro-Mag Off](https://github.com/cwyatt29/eng3Robo/blob/master/images/MAGNET%20OFF%201.jpg) Here is one last look at our project. It is more than 3 feet tall, weights 15 lbs, and is run off 36 Volts of power from 3 different batteries.
 
 
 
